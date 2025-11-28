@@ -142,17 +142,7 @@ const DetailsView = ({ employee, onClose }: DetailsViewProps) => {
           </div>
         </div>
 
-        {/* Footer */}
-        <div className={`sticky bottom-0 ${theme === 'dark' ? 'bg-gray-800 border-gray-800' : 'bg-gray-50 border-gray-200'} border-t px-8 py-4 flex justify-end gap-4`}>
-          <motion.button
-            onClick={onClose}
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="px-6 py-2 bg-black text-white dark:bg-white dark:text-black rounded-lg font-medium hover:bg-gray-800 dark:hover:bg-gray-200 transition-colors"
-          >
-            Close
-          </motion.button>
-        </div>
+       
       </motion.div>
     </motion.div>
   );
