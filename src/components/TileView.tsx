@@ -76,7 +76,7 @@ const TileView = ({
                       onClick={(e) => e.stopPropagation()}
                     >
                       <button className={`w-full px-4 py-2 text-left text-sm border-b ${menuBorder} ${menuHover} transition-colors`}>
-                        ✏️ Edit
+                         Edit
                       </button>
                       <button
                         onClick={() => {
@@ -85,7 +85,7 @@ const TileView = ({
                         }}
                         className={`w-full px-4 py-2 text-left text-sm border-b ${menuBorder} ${menuHover} transition-colors`}
                       >
-                        🚩 Flag
+                         Flag
                       </button>
                       <button
                         onClick={() => {
@@ -94,7 +94,7 @@ const TileView = ({
                         }}
                         className={`w-full px-4 py-2 text-left text-sm text-red-600 ${menuHover} transition-colors`}
                       >
-                        🗑️ Delete
+                         Delete
                       </button>
                     </motion.div>
                   )}
